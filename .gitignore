@@ -1,0 +1,30 @@
+# Node
+/node_modules
+npm-debug.log
+package-lock.json
+yarn-error.log
+coverage
+
+# Editors
+.settings*
+*.DS_Store
+*.sublime-*
+.idea*
+.project
+*.iml
+node*
+.vscode/
+
+# Sass
+.sass-cache
+.stylelintcache
+
+#examples
+/examples/tmp
+src/*.backup.js
+src/*.bak.js
+
+# Package
+!dist/js/Player.js
+dist/
+

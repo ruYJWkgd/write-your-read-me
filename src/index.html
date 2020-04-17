@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Write Your README</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../assets/css/main.css"
+    />
+  </head>
+  <body>
+    <div class="buttonGroup">
+      <button id="addImage">Image</button>
+      <button id="addCode">{}</button>
+      <button id="addTable">Table</button>
+      <button id="headingPlus">Heading +</button>
+      <button id="headingMinus">Heading -</button>
+      <button id="bold">B</button>
+      <button id="italics">I</button>
+      <button id="addLink">link</button>
+      <button id="checkList">Check List</button>
+      <button id="numberedList"># List</button>
+      <button id="bulletedList">Bullet List</button>
+      <button id="addQuote">"Quote"</button>
+    </div>
+    <div class="main-content">
+      <textarea
+        class="text-editor"
+        spellcheck="false"
+        autocomplete="off"
+        autofocus
+      ></textarea>
+      <div class="preview"></div>
+    </div>
+    <script src="../commonmark.js"></script>
+    <script src="../helpers/mdconverter.js"></script>
+  </body>
+</html>
